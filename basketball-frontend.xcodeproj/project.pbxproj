@@ -13,6 +13,7 @@
 		7EB2EEA3253E4FC7006F8DAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB2EEA2253E4FC7006F8DAE /* Preview Assets.xcassets */; };
 		7EB2EEAE253E4FC7006F8DAE /* basketball_frontendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2EEAD253E4FC7006F8DAE /* basketball_frontendTests.swift */; };
 		7EB2EEB9253E4FC7006F8DAE /* basketball_frontendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2EEB8253E4FC7006F8DAE /* basketball_frontendUITests.swift */; };
+		7EB2EECA253E50AD006F8DAE /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2EEC9253E50AD006F8DAE /* GameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		7EB2EEB4253E4FC7006F8DAE /* basketball-frontendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "basketball-frontendUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB2EEB8253E4FC7006F8DAE /* basketball_frontendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basketball_frontendUITests.swift; sourceTree = "<group>"; };
 		7EB2EEBA253E4FC7006F8DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB2EEC9253E50AD006F8DAE /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7EB2EE9F253E4FC7006F8DAE /* Assets.xcassets */,
 				7EB2EEA4253E4FC7006F8DAE /* Info.plist */,
 				7EB2EEA1253E4FC7006F8DAE /* Preview Content */,
+				7EB2EEC9253E50AD006F8DAE /* GameModel.swift */,
 			);
 			path = "basketball-frontend";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				7EB2EE9E253E4FC5006F8DAE /* ContentView.swift in Sources */,
 				7EB2EE9C253E4FC5006F8DAE /* basketball_frontendApp.swift in Sources */,
+				7EB2EECA253E50AD006F8DAE /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
