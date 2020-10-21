@@ -1,0 +1,46 @@
+[
+    {
+        "game_id": 1,
+        "name": "Mellon Park",
+        "date": "12/10/2020",
+        "time": "22:00",
+        "description": "",
+        "private": "true",
+        "latitude": 40.451627,
+        "longitude": -79.919696,
+        "user_id": 1
+    },
+    {
+        "game_id": 1,
+        "name": "Carnegie Mellon",
+        "date": "12/10/2020",
+        "time": "22:00",
+        "description": "",
+        "private": "false",
+        "longitude": -79.942516,
+        "latitude": 40.443879,
+        "user_id": 1
+    },
+    {
+        "game_id": 1,
+        "name": "Bellefield",
+        "date": "12/10/2020",
+        "time": "22:00",
+        "description": "",
+        "private": "true",
+        "longitude": -79.950643,
+        "latitude": 40.445332,
+        "user_id": 1
+    },
+    {
+        "game_id": 1,
+        "name": "Pittsburgh Parks & Recreation",
+        "date": "12/10/2020",
+        "time": "22:00",
+        "description": "",
+        "private": "false",
+        "longitude": -79.927091,
+        "latitude": 40.443450,
+        "user_id": 1
+    }
+]

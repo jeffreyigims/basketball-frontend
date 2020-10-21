@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3CB310253FCCDB0054FD7E /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3CB30F253FCCDB0054FD7E /* BottomView.swift */; };
+		7E3CB3152540B9B40054FD7E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3CB3142540B9B40054FD7E /* HomeView.swift */; };
 		7EB2EE9C253E4FC5006F8DAE /* basketball_frontendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2EE9B253E4FC5006F8DAE /* basketball_frontendApp.swift */; };
 		7EB2EE9E253E4FC5006F8DAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2EE9D253E4FC5006F8DAE /* ContentView.swift */; };
 		7EB2EEA0253E4FC7006F8DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB2EE9F253E4FC7006F8DAE /* Assets.xcassets */; };
@@ -14,6 +16,10 @@
 		7EB2EEAE253E4FC7006F8DAE /* basketball_frontendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2EEAD253E4FC7006F8DAE /* basketball_frontendTests.swift */; };
 		7EB2EEB9253E4FC7006F8DAE /* basketball_frontendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2EEB8253E4FC7006F8DAE /* basketball_frontendUITests.swift */; };
 		7EB2EECA253E50AD006F8DAE /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2EEC9253E50AD006F8DAE /* GameModel.swift */; };
+		7EB2EECF253E566D006F8DAE /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EB2EECE253E566D006F8DAE /* data.json */; };
+		7EB2EED4253E5AF3006F8DAE /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2EED3253E5AF3006F8DAE /* Location.swift */; };
+		7EB2EED9253E5DD9006F8DAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2EED8253E5DD9006F8DAE /* ViewController.swift */; };
+		7EB2EEDE253E5E86006F8DAE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2EEDD253E5E86006F8DAE /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E3CB30F253FCCDB0054FD7E /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		7E3CB3142540B9B40054FD7E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7EB2EE98253E4FC5006F8DAE /* basketball-frontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "basketball-frontend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB2EE9B253E4FC5006F8DAE /* basketball_frontendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basketball_frontendApp.swift; sourceTree = "<group>"; };
 		7EB2EE9D253E4FC5006F8DAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		7EB2EEB8253E4FC7006F8DAE /* basketball_frontendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basketball_frontendUITests.swift; sourceTree = "<group>"; };
 		7EB2EEBA253E4FC7006F8DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EB2EEC9253E50AD006F8DAE /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		7EB2EECE253E566D006F8DAE /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = SOURCE_ROOT; };
+		7EB2EED3253E5AF3006F8DAE /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		7EB2EED8253E5DD9006F8DAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EB2EEDD253E5E86006F8DAE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,18 @@
 		7EB2EE9A253E4FC5006F8DAE /* basketball-frontend */ = {
 			isa = PBXGroup;
 			children = (
+				7EB2EECE253E566D006F8DAE /* data.json */,
 				7EB2EE9B253E4FC5006F8DAE /* basketball_frontendApp.swift */,
 				7EB2EE9D253E4FC5006F8DAE /* ContentView.swift */,
 				7EB2EE9F253E4FC7006F8DAE /* Assets.xcassets */,
 				7EB2EEA4253E4FC7006F8DAE /* Info.plist */,
 				7EB2EEA1253E4FC7006F8DAE /* Preview Content */,
 				7EB2EEC9253E50AD006F8DAE /* GameModel.swift */,
+				7EB2EED3253E5AF3006F8DAE /* Location.swift */,
+				7EB2EED8253E5DD9006F8DAE /* ViewController.swift */,
+				7EB2EEDD253E5E86006F8DAE /* MapView.swift */,
+				7E3CB30F253FCCDB0054FD7E /* BottomView.swift */,
+				7E3CB3142540B9B40054FD7E /* HomeView.swift */,
 			);
 			path = "basketball-frontend";
 			sourceTree = "<group>";
@@ -237,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EB2EEA3253E4FC7006F8DAE /* Preview Assets.xcassets in Resources */,
+				7EB2EECF253E566D006F8DAE /* data.json in Resources */,
 				7EB2EEA0253E4FC7006F8DAE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EB2EED9253E5DD9006F8DAE /* ViewController.swift in Sources */,
+				7EB2EEDE253E5E86006F8DAE /* MapView.swift in Sources */,
 				7EB2EE9E253E4FC5006F8DAE /* ContentView.swift in Sources */,
 				7EB2EE9C253E4FC5006F8DAE /* basketball_frontendApp.swift in Sources */,
+				7E3CB310253FCCDB0054FD7E /* BottomView.swift in Sources */,
+				7E3CB3152540B9B40054FD7E /* HomeView.swift in Sources */,
+				7EB2EED4253E5AF3006F8DAE /* Location.swift in Sources */,
 				7EB2EECA253E50AD006F8DAE /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
