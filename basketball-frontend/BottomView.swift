@@ -10,6 +10,7 @@ import SwiftUI
 struct BottomView<Content: View>: View {
   @Binding var isOpen: Bool
   @GestureState private var slide: CGFloat = 0
+  
   private var offset: CGFloat {
     isOpen ? 0 : maxHeight - minHeight
   }

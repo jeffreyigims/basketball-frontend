@@ -9,13 +9,13 @@ import SwiftUI
 
 struct HomeView: View {
   @State private var isOpen = false
-
+  
   var body: some View {
     GeometryReader { geometry in
-      Color.green
+      MapView()
       // Content is passed as a closure to the bottom view
       BottomView(isOpen: self.$isOpen, maxHeight: geometry.size.height * 0.8) {
-        Color.blue
+        GamesTableView()
       }
     }.edgesIgnoringSafeArea(.all)
   }

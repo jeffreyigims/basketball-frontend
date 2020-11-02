@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7E3CB310253FCCDB0054FD7E /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3CB30F253FCCDB0054FD7E /* BottomView.swift */; };
 		7E3CB3152540B9B40054FD7E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3CB3142540B9B40054FD7E /* HomeView.swift */; };
+		7E3CB31A2540BF3F0054FD7E /* GamesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3CB3192540BF3F0054FD7E /* GamesTableView.swift */; };
+		7E3CB31F2540C3A60054FD7E /* dates.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E3CB31E2540C3A60054FD7E /* dates.json */; };
+		7E3CB3242540F9600054FD7E /* GameDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3CB3232540F9600054FD7E /* GameDetailsView.swift */; };
 		7EB2EE9C253E4FC5006F8DAE /* basketball_frontendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2EE9B253E4FC5006F8DAE /* basketball_frontendApp.swift */; };
 		7EB2EE9E253E4FC5006F8DAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2EE9D253E4FC5006F8DAE /* ContentView.swift */; };
 		7EB2EEA0253E4FC7006F8DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB2EE9F253E4FC7006F8DAE /* Assets.xcassets */; };
@@ -42,6 +45,9 @@
 /* Begin PBXFileReference section */
 		7E3CB30F253FCCDB0054FD7E /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
 		7E3CB3142540B9B40054FD7E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7E3CB3192540BF3F0054FD7E /* GamesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableView.swift; sourceTree = "<group>"; };
+		7E3CB31E2540C3A60054FD7E /* dates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dates.json; sourceTree = "<group>"; };
+		7E3CB3232540F9600054FD7E /* GameDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailsView.swift; sourceTree = "<group>"; };
 		7EB2EE98253E4FC5006F8DAE /* basketball-frontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "basketball-frontend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB2EE9B253E4FC5006F8DAE /* basketball_frontendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basketball_frontendApp.swift; sourceTree = "<group>"; };
 		7EB2EE9D253E4FC5006F8DAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +115,7 @@
 		7EB2EE9A253E4FC5006F8DAE /* basketball-frontend */ = {
 			isa = PBXGroup;
 			children = (
+				7E3CB31E2540C3A60054FD7E /* dates.json */,
 				7EB2EECE253E566D006F8DAE /* data.json */,
 				7EB2EE9B253E4FC5006F8DAE /* basketball_frontendApp.swift */,
 				7EB2EE9D253E4FC5006F8DAE /* ContentView.swift */,
@@ -121,6 +128,8 @@
 				7EB2EEDD253E5E86006F8DAE /* MapView.swift */,
 				7E3CB30F253FCCDB0054FD7E /* BottomView.swift */,
 				7E3CB3142540B9B40054FD7E /* HomeView.swift */,
+				7E3CB3192540BF3F0054FD7E /* GamesTableView.swift */,
+				7E3CB3232540F9600054FD7E /* GameDetailsView.swift */,
 			);
 			path = "basketball-frontend";
 			sourceTree = "<group>";
@@ -257,6 +266,7 @@
 				7EB2EEA3253E4FC7006F8DAE /* Preview Assets.xcassets in Resources */,
 				7EB2EECF253E566D006F8DAE /* data.json in Resources */,
 				7EB2EEA0253E4FC7006F8DAE /* Assets.xcassets in Resources */,
+				7E3CB31F2540C3A60054FD7E /* dates.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3CB31A2540BF3F0054FD7E /* GamesTableView.swift in Sources */,
+				7E3CB3242540F9600054FD7E /* GameDetailsView.swift in Sources */,
 				7EB2EED9253E5DD9006F8DAE /* ViewController.swift in Sources */,
 				7EB2EEDE253E5E86006F8DAE /* MapView.swift in Sources */,
 				7EB2EE9E253E4FC5006F8DAE /* ContentView.swift in Sources */,

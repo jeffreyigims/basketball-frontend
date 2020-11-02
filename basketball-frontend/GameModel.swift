@@ -7,6 +7,18 @@
 
 import Foundation
 
+struct GamesDate: Decodable, Identifiable {
+  let id: Int
+  let date: String
+  let games: [Game]
+  
+  enum CodingKeys: String, CodingKey {
+    case id
+    case date = "game_date"
+    case games
+  }
+}
+
 struct Game: Decodable, Identifiable {
   let id: Int
   let name: String
@@ -17,6 +29,7 @@ struct Game: Decodable, Identifiable {
   let longitude: Double
   let latitude: Double
   let userID: Int
+  let status: String
   
   enum CodingKeys: String, CodingKey {
     case id = "game_id"
@@ -28,6 +41,7 @@ struct Game: Decodable, Identifiable {
     case longitude
     case latitude
     case userID = "user_id"
+    case status
   }
 }
 
@@ -37,18 +51,17 @@ extension Bundle {
     guard let url = self.url(forResource: file, withExtension: nil) else {
       fatalError("Failed to locate \(file) in bundle.")
     }
-
+    
     guard let data = try? Data(contentsOf: url) else {
       fatalError("Failed to load \(file) from bundle.")
     }
-
+    
     let decoder = JSONDecoder()
-
+    
     guard let loaded = try? decoder.decode(T.self, from: data) else {
       fatalError("Failed to decode \(file) from bundle.")
     }
-    print(loaded)
-
+    
     return loaded
   }
 }

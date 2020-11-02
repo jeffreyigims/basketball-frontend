@@ -8,12 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-  //  var viewController: ViewController = ViewController()
-  //  @ObservedObject var userLocation = Location()
   
   var body: some View {
-    //      let games = Bundle.main.decode([Game].self, from: "data.json")
-    //      MapView(userLocation: userLocation, games: games)
     TabView {
      HomeView().tabItem({
         Text("Home")
